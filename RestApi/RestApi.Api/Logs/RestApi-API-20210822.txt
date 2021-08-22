@@ -1,0 +1,386 @@
+===> 2021-08-22 15:35:59.834 +07:00 [Information] Starting web host
+===> 2021-08-22 15:36:00.143 +07:00 [Information] User profile is available. Using '"C:\Users\manhn\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2021-08-22 15:36:00.219 +07:00 [Debug] Reading data from file '"C:\Users\manhn\AppData\Local\ASP.NET\DataProtection-Keys\key-fa530058-8588-4c40-b2a7-7e63592821c4.xml"'.
+===> 2021-08-22 15:36:00.307 +07:00 [Debug] Found key {fa530058-8588-4c40-b2a7-7e63592821c4}.
+===> 2021-08-22 15:36:00.324 +07:00 [Debug] Considering key {fa530058-8588-4c40-b2a7-7e63592821c4} with expiration date 2021-11-12 13:43:00Z as default key.
+===> 2021-08-22 15:36:00.397 +07:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2021-08-22 15:36:00.401 +07:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2021-08-22 15:36:00.403 +07:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2021-08-22 15:36:00.409 +07:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2021-08-22 15:36:00.415 +07:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2021-08-22 15:36:00.420 +07:00 [Debug] Using key {fa530058-8588-4c40-b2a7-7e63592821c4} as the default key.
+===> 2021-08-22 15:36:00.421 +07:00 [Debug] Key ring with default key {fa530058-8588-4c40-b2a7-7e63592821c4} was loaded during application startup.
+===> 2021-08-22 15:36:00.669 +07:00 [Information] Startup::Configure
+===> 2021-08-22 15:36:00.923 +07:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+===> 2021-08-22 15:36:00.946 +07:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2021-08-22 15:36:01.326 +07:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2021-08-22 15:36:01.464 +07:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies', configuration added for 'Proxies:UseChangeTrackingProxies'".
+===> 2021-08-22 15:36:02.609 +07:00 [Information] Entity Framework Core "5.0.0" initialized '"RestApiContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2021-08-22 15:36:02.858 +07:00 [Debug] Opening connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:03.485 +07:00 [Debug] An error occurred using the connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:03.497 +07:00 [Debug] Migrating using database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:03.497 +07:00 [Debug] Opening connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:03.500 +07:00 [Debug] An error occurred using the connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:03.501 +07:00 [Debug] Opening connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:03.502 +07:00 [Debug] An error occurred using the connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:03.537 +07:00 [Debug] Opening connection to database '"master"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:03.560 +07:00 [Debug] Opened connection to database '"master"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:03.567 +07:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-08-22 15:36:03.575 +07:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (4ms).
+===> 2021-08-22 15:36:03.586 +07:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""CREATE DATABASE [RestApi];"
+===> 2021-08-22 15:36:05.045 +07:00 [Information] Executed DbCommand ("1,460"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""CREATE DATABASE [RestApi];"
+===> 2021-08-22 15:36:05.048 +07:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-08-22 15:36:05.048 +07:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-08-22 15:36:05.049 +07:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [RestApi] SET READ_COMMITTED_SNAPSHOT ON;
+END;"
+===> 2021-08-22 15:36:05.457 +07:00 [Information] Executed DbCommand ("408"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [RestApi] SET READ_COMMITTED_SNAPSHOT ON;
+END;"
+===> 2021-08-22 15:36:05.459 +07:00 [Debug] Closing connection to database '"master"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:05.467 +07:00 [Debug] Closed connection to database '"master"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:05.470 +07:00 [Debug] Opening connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:05.483 +07:00 [Debug] Opened connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:05.484 +07:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-08-22 15:36:05.484 +07:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-08-22 15:36:05.485 +07:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-08-22 15:36:05.495 +07:00 [Information] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-08-22 15:36:05.496 +07:00 [Debug] Closing connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:05.497 +07:00 [Debug] Closed connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:05.641 +07:00 [Debug] DetectChanges starting for '"RestApiContext"'.
+===> 2021-08-22 15:36:05.648 +07:00 [Debug] DetectChanges completed for '"RestApiContext"'.
+===> 2021-08-22 15:36:05.658 +07:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-08-22 15:36:05.658 +07:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-08-22 15:36:05.658 +07:00 [Debug] Opening connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:05.659 +07:00 [Debug] Opened connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:05.659 +07:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);"
+===> 2021-08-22 15:36:05.984 +07:00 [Information] Executed DbCommand ("324"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);"
+===> 2021-08-22 15:36:05.984 +07:00 [Debug] Closing connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:05.984 +07:00 [Debug] Closed connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:05.984 +07:00 [Debug] Opening connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:05.984 +07:00 [Debug] Opened connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:05.984 +07:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-08-22 15:36:05.985 +07:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-08-22 15:36:05.985 +07:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-08-22 15:36:05.985 +07:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-08-22 15:36:05.986 +07:00 [Debug] Closing connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:05.986 +07:00 [Debug] Closed connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:05.990 +07:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2021-08-22 15:36:05.990 +07:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2021-08-22 15:36:05.990 +07:00 [Debug] Opening connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:05.991 +07:00 [Debug] Opened connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:05.991 +07:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-08-22 15:36:06.020 +07:00 [Information] Executed DbCommand ("30"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-08-22 15:36:06.021 +07:00 [Debug] Closing connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:06.022 +07:00 [Debug] Closed connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:06.025 +07:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-08-22 15:36:06.025 +07:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-08-22 15:36:06.025 +07:00 [Debug] Opening connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:06.025 +07:00 [Debug] Opened connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:06.026 +07:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2021-08-22 15:36:06.235 +07:00 [Information] Executed DbCommand ("209"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2021-08-22 15:36:06.238 +07:00 [Debug] A data reader was disposed.
+===> 2021-08-22 15:36:06.238 +07:00 [Debug] Closing connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:06.238 +07:00 [Debug] Closed connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:06.255 +07:00 [Information] Applying migration '"20180708205028_InitialCreate"'.
+===> 2021-08-22 15:36:06.306 +07:00 [Debug] Opening connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:06.306 +07:00 [Debug] Opened connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:06.308 +07:00 [Debug] Beginning transaction with isolation level '"Unspecified"'.
+===> 2021-08-22 15:36:06.320 +07:00 [Debug] Began transaction with isolation level '"ReadCommitted"'.
+===> 2021-08-22 15:36:06.321 +07:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-08-22 15:36:06.321 +07:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-08-22 15:36:06.322 +07:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Accounts] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [Name] nvarchar(30) NOT NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsTrial] bit NOT NULL,
+    [IsActive] bit NOT NULL,
+    [SetActive] datetime2 NOT NULL,
+    [RowVersion] rowversion NULL,
+    CONSTRAINT [PK_Accounts] PRIMARY KEY ([Id])
+);"
+===> 2021-08-22 15:36:06.598 +07:00 [Information] Executed DbCommand ("276"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Accounts] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [Name] nvarchar(30) NOT NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsTrial] bit NOT NULL,
+    [IsActive] bit NOT NULL,
+    [SetActive] datetime2 NOT NULL,
+    [RowVersion] rowversion NULL,
+    CONSTRAINT [PK_Accounts] PRIMARY KEY ([Id])
+);"
+===> 2021-08-22 15:36:06.598 +07:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-08-22 15:36:06.598 +07:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-08-22 15:36:06.599 +07:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [FirstName] nvarchar(20) NOT NULL,
+    [LastName] nvarchar(20) NOT NULL,
+    [UserName] nvarchar(30) NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsAdminRole] bit NOT NULL,
+    [Roles] nvarchar(255) NULL,
+    [IsActive] bit NOT NULL,
+    [Password] nvarchar(255) NULL,
+    [AccountId] int NOT NULL,
+    [RowVersion] rowversion NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Users_Accounts_AccountId] FOREIGN KEY ([AccountId]) REFERENCES [Accounts] ([Id]) ON DELETE CASCADE
+);"
+===> 2021-08-22 15:36:06.679 +07:00 [Information] Executed DbCommand ("80"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [FirstName] nvarchar(20) NOT NULL,
+    [LastName] nvarchar(20) NOT NULL,
+    [UserName] nvarchar(30) NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsAdminRole] bit NOT NULL,
+    [Roles] nvarchar(255) NULL,
+    [IsActive] bit NOT NULL,
+    [Password] nvarchar(255) NULL,
+    [AccountId] int NOT NULL,
+    [RowVersion] rowversion NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Users_Accounts_AccountId] FOREIGN KEY ([AccountId]) REFERENCES [Accounts] ([Id]) ON DELETE CASCADE
+);"
+===> 2021-08-22 15:36:06.679 +07:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-08-22 15:36:06.680 +07:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-08-22 15:36:06.680 +07:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_Users_AccountId] ON [Users] ([AccountId]);"
+===> 2021-08-22 15:36:06.754 +07:00 [Information] Executed DbCommand ("75"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_Users_AccountId] ON [Users] ([AccountId]);"
+===> 2021-08-22 15:36:06.755 +07:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-08-22 15:36:06.755 +07:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-08-22 15:36:06.755 +07:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20180708205028_InitialCreate', N'5.0.0');"
+===> 2021-08-22 15:36:06.821 +07:00 [Information] Executed DbCommand ("66"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20180708205028_InitialCreate', N'5.0.0');"
+===> 2021-08-22 15:36:06.823 +07:00 [Debug] Committing transaction.
+===> 2021-08-22 15:36:06.826 +07:00 [Debug] Committed transaction.
+===> 2021-08-22 15:36:06.830 +07:00 [Debug] Disposing transaction.
+===> 2021-08-22 15:36:06.831 +07:00 [Debug] Closing connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:06.831 +07:00 [Debug] Closed connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:06.888 +07:00 [Debug] Compiling query expression: "
+"'"DbSet<Account>()
+    .Any()"'
+===> 2021-08-22 15:36:07.095 +07:00 [Debug] Generated query execution expression: "
+"'"queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            Projection Mapping:
+            SELECT 1
+            FROM Accounts AS a)), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    RestApi.Entity.Context.RestApiContext, 
+    False, 
+    False
+)
+    .Single()"'
+===> 2021-08-22 15:36:07.137 +07:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-08-22 15:36:07.137 +07:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-08-22 15:36:07.137 +07:00 [Debug] Opening connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:07.137 +07:00 [Debug] Opened connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:07.137 +07:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-08-22 15:36:07.525 +07:00 [Information] Executed DbCommand ("388"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-08-22 15:36:07.530 +07:00 [Debug] A data reader was disposed.
+===> 2021-08-22 15:36:07.530 +07:00 [Debug] Closing connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:07.530 +07:00 [Debug] Closed connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:07.683 +07:00 [Debug] '"RestApiContext"' generated a temporary value for the property '"Id"."Account"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2021-08-22 15:36:07.795 +07:00 [Debug] Context '"RestApiContext"' started tracking '"Account"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2021-08-22 15:36:07.797 +07:00 [Debug] DetectChanges starting for '"RestApiContext"'.
+===> 2021-08-22 15:36:07.809 +07:00 [Debug] DetectChanges completed for '"RestApiContext"'.
+===> 2021-08-22 15:36:07.813 +07:00 [Debug] SaveChanges starting for '"RestApiContext"'.
+===> 2021-08-22 15:36:07.814 +07:00 [Debug] DetectChanges starting for '"RestApiContext"'.
+===> 2021-08-22 15:36:07.816 +07:00 [Debug] The unchanged property '"Account"."Created"' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2021-08-22 15:36:07.817 +07:00 [Debug] The unchanged property '"Account"."Modified"' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2021-08-22 15:36:07.817 +07:00 [Debug] DetectChanges completed for '"RestApiContext"'.
+===> 2021-08-22 15:36:07.825 +07:00 [Debug] Opening connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:07.826 +07:00 [Debug] Opened connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:07.826 +07:00 [Debug] Beginning transaction with isolation level '"Unspecified"'.
+===> 2021-08-22 15:36:07.826 +07:00 [Debug] Began transaction with isolation level '"ReadCommitted"'.
+===> 2021-08-22 15:36:07.876 +07:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-08-22 15:36:07.876 +07:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-08-22 15:36:07.885 +07:00 [Debug] Executing DbCommand [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (Size = 255), @p2='?' (Size = 30), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime2), @p6='?' (Size = 30), @p7='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Accounts] ([Created], [Description], [Email], [IsActive], [IsTrial], [Modified], [Name], [SetActive])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [Id], [RowVersion]
+FROM [Accounts]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+===> 2021-08-22 15:36:08.063 +07:00 [Information] Executed DbCommand ("180"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (Size = 255), @p2='?' (Size = 30), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime2), @p6='?' (Size = 30), @p7='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Accounts] ([Created], [Description], [Email], [IsActive], [IsTrial], [Modified], [Name], [SetActive])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [Id], [RowVersion]
+FROM [Accounts]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+===> 2021-08-22 15:36:08.083 +07:00 [Debug] The foreign key property '"Account"."Id"' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2021-08-22 15:36:08.092 +07:00 [Debug] A data reader was disposed.
+===> 2021-08-22 15:36:08.092 +07:00 [Debug] Committing transaction.
+===> 2021-08-22 15:36:08.093 +07:00 [Debug] Committed transaction.
+===> 2021-08-22 15:36:08.093 +07:00 [Debug] Closing connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:08.093 +07:00 [Debug] Closed connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:08.093 +07:00 [Debug] Disposing transaction.
+===> 2021-08-22 15:36:08.105 +07:00 [Debug] An entity of type '"Account"' tracked by '"RestApiContext"' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2021-08-22 15:36:08.107 +07:00 [Debug] SaveChanges completed for '"RestApiContext"' with 1 entities written to the database.
+===> 2021-08-22 15:36:08.108 +07:00 [Debug] Compiling query expression: "
+"'"DbSet<User>()
+    .Any()"'
+===> 2021-08-22 15:36:08.112 +07:00 [Debug] Generated query execution expression: "
+"'"queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            Projection Mapping:
+            SELECT 1
+            FROM Users AS u)), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    RestApi.Entity.Context.RestApiContext, 
+    False, 
+    False
+)
+    .Single()"'
+===> 2021-08-22 15:36:08.112 +07:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-08-22 15:36:08.112 +07:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-08-22 15:36:08.112 +07:00 [Debug] Opening connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:08.112 +07:00 [Debug] Opened connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:08.113 +07:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-08-22 15:36:08.130 +07:00 [Information] Executed DbCommand ("17"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-08-22 15:36:08.130 +07:00 [Debug] A data reader was disposed.
+===> 2021-08-22 15:36:08.131 +07:00 [Debug] Closing connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:08.131 +07:00 [Debug] Closed connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:08.147 +07:00 [Debug] '"RestApiContext"' generated a temporary value for the property '"Id"."User"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2021-08-22 15:36:08.196 +07:00 [Debug] Context '"RestApiContext"' started tracking '"User"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2021-08-22 15:36:08.197 +07:00 [Debug] DetectChanges starting for '"RestApiContext"'.
+===> 2021-08-22 15:36:08.205 +07:00 [Debug] DetectChanges completed for '"RestApiContext"'.
+===> 2021-08-22 15:36:08.205 +07:00 [Debug] SaveChanges starting for '"RestApiContext"'.
+===> 2021-08-22 15:36:08.205 +07:00 [Debug] DetectChanges starting for '"RestApiContext"'.
+===> 2021-08-22 15:36:08.205 +07:00 [Debug] The unchanged property '"User"."Created"' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2021-08-22 15:36:08.206 +07:00 [Debug] The unchanged property '"User"."Modified"' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2021-08-22 15:36:08.206 +07:00 [Debug] DetectChanges completed for '"RestApiContext"'.
+===> 2021-08-22 15:36:08.207 +07:00 [Debug] Opening connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:08.207 +07:00 [Debug] Opened connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:08.207 +07:00 [Debug] Beginning transaction with isolation level '"Unspecified"'.
+===> 2021-08-22 15:36:08.208 +07:00 [Debug] Began transaction with isolation level '"ReadCommitted"'.
+===> 2021-08-22 15:36:08.209 +07:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-08-22 15:36:08.210 +07:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-08-22 15:36:08.210 +07:00 [Debug] Executing DbCommand [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 255), @p3='?' (Size = 30), @p4='?' (Size = 20), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (Size = 20), @p8='?' (DbType = DateTime2), @p9='?' (Size = 4000), @p10='?' (Size = 255), @p11='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([AccountId], [Created], [Description], [Email], [FirstName], [IsActive], [IsAdminRole], [LastName], [Modified], [Password], [Roles], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id], [RowVersion]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+===> 2021-08-22 15:36:08.298 +07:00 [Information] Executed DbCommand ("88"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 255), @p3='?' (Size = 30), @p4='?' (Size = 20), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (Size = 20), @p8='?' (DbType = DateTime2), @p9='?' (Size = 4000), @p10='?' (Size = 255), @p11='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([AccountId], [Created], [Description], [Email], [FirstName], [IsActive], [IsAdminRole], [LastName], [Modified], [Password], [Roles], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id], [RowVersion]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+===> 2021-08-22 15:36:08.301 +07:00 [Debug] The foreign key property '"User"."Id"' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2021-08-22 15:36:08.303 +07:00 [Debug] A data reader was disposed.
+===> 2021-08-22 15:36:08.303 +07:00 [Debug] Committing transaction.
+===> 2021-08-22 15:36:08.304 +07:00 [Debug] Committed transaction.
+===> 2021-08-22 15:36:08.304 +07:00 [Debug] Closing connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:08.304 +07:00 [Debug] Closed connection to database '"RestApi"' on server '".\SQLEXPRESS"'.
+===> 2021-08-22 15:36:08.304 +07:00 [Debug] Disposing transaction.
+===> 2021-08-22 15:36:08.305 +07:00 [Debug] An entity of type '"User"' tracked by '"RestApiContext"' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2021-08-22 15:36:08.305 +07:00 [Debug] SaveChanges completed for '"RestApiContext"' with 1 entities written to the database.
+===> 2021-08-22 15:36:08.307 +07:00 [Debug] '"RestApiContext"' disposed.
+===> 2021-08-22 15:36:08.338 +07:00 [Debug] Loaded hosting startup assembly "RestApi.Api"
+===> 2021-08-22 15:36:08.414 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info - -
+===> 2021-08-22 15:36:08.419 +07:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2021-08-22 15:36:08.964 +07:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-08-22 15:36:09.289 +07:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2021-08-22 15:36:09.325 +07:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "RestApi.Api.Controllers.v1.InfoController" ("RestApi.Api").
+===> 2021-08-22 15:36:09.327 +07:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2021-08-22 15:36:09.328 +07:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2021-08-22 15:36:09.329 +07:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-08-22 15:36:09.330 +07:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2021-08-22 15:36:09.331 +07:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2021-08-22 15:36:09.334 +07:00 [Debug] Executing controller factory for controller "RestApi.Api.Controllers.v1.InfoController" ("RestApi.Api")
+===> 2021-08-22 15:36:09.335 +07:00 [Debug] Executed controller factory for controller "RestApi.Api.Controllers.v1.InfoController" ("RestApi.Api")
+===> 2021-08-22 15:36:09.498 +07:00 [Information] Executing action method "RestApi.Api.Controllers.v1.InfoController.ApiInfo (RestApi.Api)" - Validation state: Valid
+===> 2021-08-22 15:36:09.509 +07:00 [Information] Executed action method "RestApi.Api.Controllers.v1.InfoController.ApiInfo (RestApi.Api)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 4.8131ms.
+===> 2021-08-22 15:36:09.519 +07:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2021-08-22 15:36:09.571 +07:00 [Information] Executed action "RestApi.Api.Controllers.v1.InfoController.ApiInfo (RestApi.Api)" in 233.2089ms
+===> 2021-08-22 15:36:09.581 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:44341/api/info - - - 200 2725 text/html 1168.2617ms
+===> 2021-08-22 15:36:12.611 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/favicon.ico - -
+===> 2021-08-22 15:36:12.616 +07:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-08-22 15:36:12.638 +07:00 [Debug] Request did not match any routes
+===> 2021-08-22 15:36:12.641 +07:00 [Debug] Request did not match any routes
+===> 2021-08-22 15:36:12.676 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:44341/favicon.ico - - - 404 - - 64.8585ms

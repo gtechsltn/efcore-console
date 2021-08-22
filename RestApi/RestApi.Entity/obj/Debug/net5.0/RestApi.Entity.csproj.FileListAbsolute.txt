@@ -1,0 +1,15 @@
+C:\Console\EFCore\RestApi\RestApi.Entity\bin\Debug\net5.0\RestApi.Entity.deps.json
+C:\Console\EFCore\RestApi\RestApi.Entity\bin\Debug\net5.0\RestApi.Entity.runtimeconfig.json
+C:\Console\EFCore\RestApi\RestApi.Entity\bin\Debug\net5.0\RestApi.Entity.runtimeconfig.dev.json
+C:\Console\EFCore\RestApi\RestApi.Entity\bin\Debug\net5.0\RestApi.Entity.dll
+C:\Console\EFCore\RestApi\RestApi.Entity\bin\Debug\net5.0\ref\RestApi.Entity.dll
+C:\Console\EFCore\RestApi\RestApi.Entity\bin\Debug\net5.0\RestApi.Entity.pdb
+C:\Console\EFCore\RestApi\RestApi.Entity\obj\Debug\net5.0\RestApi.Entity.csproj.AssemblyReference.cache
+C:\Console\EFCore\RestApi\RestApi.Entity\obj\Debug\net5.0\RestApi.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Console\EFCore\RestApi\RestApi.Entity\obj\Debug\net5.0\RestApi.Entity.AssemblyInfoInputs.cache
+C:\Console\EFCore\RestApi\RestApi.Entity\obj\Debug\net5.0\RestApi.Entity.AssemblyInfo.cs
+C:\Console\EFCore\RestApi\RestApi.Entity\obj\Debug\net5.0\RestApi.Entity.csproj.CoreCompileInputs.cache
+C:\Console\EFCore\RestApi\RestApi.Entity\obj\Debug\net5.0\RestApi.Entity.dll
+C:\Console\EFCore\RestApi\RestApi.Entity\obj\Debug\net5.0\ref\RestApi.Entity.dll
+C:\Console\EFCore\RestApi\RestApi.Entity\obj\Debug\net5.0\RestApi.Entity.pdb
+C:\Console\EFCore\RestApi\RestApi.Entity\obj\Debug\net5.0\RestApi.Entity.genruntimeconfig.cache
